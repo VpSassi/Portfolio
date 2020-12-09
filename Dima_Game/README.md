@@ -9,11 +9,11 @@ Tässä on kesällä 2020 tekemäni Unity peliprojekti, jonka tein osana projekt
 
 <br/>
 
-<img src="../images/Dima_Game_Main_Menu.png" height="300px" />  
+<img src="../images/Dima_Game_Main_Menu.PNG" height="300px" />  
 
 *Pelin kenttävalikko*
 
-<img src="../images/Dima_Game_In_Game.png" height="300px" />  
+<img src="../images/Dima_Game_In_Game.PNG" height="300px" />  
 
 *Esimerkkikuva pelin kolmannesta kentästä*
 
