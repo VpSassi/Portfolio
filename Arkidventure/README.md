@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="./resources/android/icon/drawable-xxxhdpi-icon.png" height="192px" />
+<img src="./arkidventure/resources/android/icon/drawable-xxxhdpi-icon.png" height="192px" />
 
 Tässä on kevätlukukaudella 2019 tekemäni sovellusohjelmoinnin kurssin lopputyö. Sovellus on tehty Android-laitteille ja sen on tarkoitus luoda käyttäjälleen kävelylenkkireittejä, joita suorittamalla ansaitaan kokemuspisteitä ja in-game valuuttaa.
 
