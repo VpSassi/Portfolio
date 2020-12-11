@@ -1,0 +1,24 @@
+ion-card {
+    position : relative;
+}
+
+.karttaKuva {
+    position : absolute;
+}
+
+.taustaKuva {
+    position : absolute;
+    width: 100%;
+    height : 100%;
+}
+
+ion-col {
+    height : 80px;
+    width : 80px;
+    border : 1px solid black;
+    text-align : center;
+}
+
+ion-icon {
+    color : red;
+}

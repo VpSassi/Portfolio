@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-img slot="start" src="{{ overlord.logo }}" alt="LOGO" class="logo"></ion-img>
+
+      <ion-avatar slot="end">
+        <ion-img src="{{ overlord.profilePic }}" class="profiilikuva"></ion-img>
+      </ion-avatar>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+
+    <img src="assets/kuvat/tausta.png" class="taustaKuva"/>
+
+  <ion-item color="transparent">
+    <h3 style="color : rgb(226, 226, 0);" slot="start">Seikkailu odottaa {{ overlord.currentUser.username}}</h3>
+  </ion-item>
+
+  <ion-item color="transparent">
+    <h4>Raha: <small>{{ overlord.currentUser.raha }}</small></h4>
+  </ion-item>
+
+  <ion-item color="transparent">
+    <h4>XP: <small>{{ overlord.currentUser.xp }}</small></h4>
+  </ion-item>
+  
+  <ion-card>
+
+    <img src="assets/kuvat/kartta.png" class="karttaKuva"/>
+
+    <ion-grid color="transparent">
+
+      <ion-row>
+        <ion-col>
+            <ion-button fill="clear" size="large" shape="round" (click)="avaaExpedition(0, 1200, 200, 'Mikpoli kieppi')"><ion-icon name="locate"></ion-icon></ion-button>
+        </ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col>
+          <ion-button fill="clear" size="large" shape="round" (click)="avaaExpedition(2, 7000, 200, 'TESTI')"><ion-icon name="locate"></ion-icon></ion-button>
+        </ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col>
+            <ion-button fill="clear" size="large" shape="round" (click)="avaaExpedition(1, 900, 130, 'Puisto pelleily')"><ion-icon name="locate"></ion-icon></ion-button>
+        </ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+      
+      <ion-row>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+      </ion-row>
+
+    </ion-grid>
+  
+  </ion-card>
+
+</ion-content>

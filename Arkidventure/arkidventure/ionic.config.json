@@ -1,0 +1,7 @@
+{
+  "name": "arkidventure",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

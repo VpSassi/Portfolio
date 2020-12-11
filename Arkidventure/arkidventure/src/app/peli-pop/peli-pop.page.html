@@ -1,0 +1,30 @@
+<ion-content color="dark">
+
+  <img src="assets/kuvat/tausta.png" class="taustaKuva"/>
+
+  <ion-item color="dark">
+    <h3>{{ overlord.currentPeli.nimi }}</h3>
+  </ion-item>
+
+  <ion-card color="dark">
+    <br>
+    <ion-item color="transparent">
+        <ion-img src="{{ overlord.peliMapImg }}" alt="PELIMAP"></ion-img>
+    </ion-item>
+    
+    <ion-item color="transparent">
+      <h5>raha: {{ overlord.currentPeli.raha }}</h5>
+    </ion-item>
+      
+    <ion-item color="transparent">
+      <h5>xp: {{ overlord.currentPeli.xp }}</h5>
+    </ion-item>
+
+    <ion-item color="transparent">
+        <ion-button (click)="sulje()" fill="clear" slot="start" color="danger"><ion-icon name="arrow-back"></ion-icon>Takaisin</ion-button>
+        <ion-button (click)="play()" fill="clear" size="large" slot="end" color="light">Aloita <ion-icon color="danger" name="locate"></ion-icon></ion-button>
+    </ion-item>
+
+  </ion-card>
+
+</ion-content>
