@@ -1,7 +1,7 @@
 # Purje Line kuvasto
 ## Graafisen suunnittelun kurssin lopputyö 2018
 
-<img src="../images/Purje_Line_Kuvasto_Kansilehti.png" height="400px" />  
+<img src="../images/Purje_Line_Kuvasto_Kansilehti.PNG" height="400px" />  
 
 *Kuvaston kansilehti*
 
